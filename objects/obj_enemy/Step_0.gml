@@ -7,11 +7,11 @@ switch(state)  
 		state = enemyState.CHASE
 	}
 	
-	if (next_time < 0)
+	/*if (next_time < 0)
 	{
-		next_time= 30
+		next_time = 30
 		image_angle = random(360)
-	}
+	}*/
 	
 	x += lengthdir_x(enemy_speed, image_angle)
 	y += lengthdir_y(enemy_speed, image_angle)

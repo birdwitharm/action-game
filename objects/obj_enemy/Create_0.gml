@@ -9,3 +9,4 @@ close = 150
 far = 400
 
 enemy_speed = 10;
+next_time = 50;
