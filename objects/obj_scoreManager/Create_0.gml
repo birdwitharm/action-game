@@ -1,0 +1,1 @@
+global.pscore = 0

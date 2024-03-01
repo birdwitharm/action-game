@@ -45,6 +45,7 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"obj_scoreManager","path":"objects/obj_scoreManager/obj_scoreManager.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
