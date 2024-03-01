@@ -13,12 +13,14 @@ switch(state)  
 		image_angle = random(360)
 	}*/
 	
-	x += lengthdir_x(enemy_speed, image_angle)
-	y += lengthdir_y(enemy_speed, image_angle)
+	//x += lengthdir_x(enemy_speed, image_angle)
+	//y += lengthdir_y(enemy_speed, image_angle)
 		
 	break;
 	
 	case enemyState.CHASE:
+	
+	move_towards_point(obj_player.x, obj_player.y, enemy_speed)
 	
 	if(point_distance(x, y, obj_player.x, obj_player.y) > far)
 	{
@@ -43,5 +45,17 @@ switch(state)  
 	
 	case enemyState.SHOOTING:
 	
+	if(point_distance(x, y, obj_player.x, obj_player.y) > far)
+	{
+		state = enemyState.IDLE
+	} else {
+		// shooting
+		bullet_timer++
+		if (bullet_timer > bullet_break)
+		{
+			instance_create_layer(x, y, "Instances", obj_bullet)
+			bullet_timer = 0
+		}
+	}
 }
 

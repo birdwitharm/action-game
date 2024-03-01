@@ -1,5 +1,4 @@
 // wasd movement
-
 if (keyboard_check(ord("D")) && x + sprite_width < room_width)
 {
 	x += player_speed;
@@ -25,7 +24,6 @@ if (keyboard_check(ord("W")) && y > 0)
 }
 
 // shooting bullets
-
 if (keyboard_check_pressed(vk_space)) 
 {
 	instance_create_layer (x, y, "Instances", obj_bullet)

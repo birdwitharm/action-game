@@ -1,3 +1,6 @@
+// enemy health
+enemy_health = 3;
+
 // spawning enemies randomly
 
 for (i = 0; i < 8; i++)
