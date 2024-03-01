@@ -1,3 +1,6 @@
+// orientation
+direction = point_direction(x, y, mouse_x, mouse_y);
+
 // wasd movement
 if (keyboard_check(ord("D")) && x + sprite_width < room_width)
 {
@@ -24,7 +27,7 @@ if (keyboard_check(ord("W")) && y > 0)
 }
 
 // shooting bullets
-if (keyboard_check_pressed(vk_space)) 
+if (mouse_check_button_pressed(mb_left)) 
 {
 	instance_create_layer (x, y, "Instances", obj_bullet)
 }

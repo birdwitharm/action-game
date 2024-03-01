@@ -1,4 +1,4 @@
-image_angle = direction - 50
+direction = point_direction(x, y, mouse_x, mouse_y);
 
 var nearest_enemy = instance_nearest(x, y, obj_bullet)
 
