@@ -34,10 +34,12 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"spr_player_gun","path":"sprites/spr_player_gun/spr_player_gun.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_enemy_bullet","path":"sprites/spr_enemy_bullet/spr_enemy_bullet.yy",},},
     {"id":{"name":"obj_cameraManager","path":"objects/obj_cameraManager/obj_cameraManager.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"obj_player_gun","path":"objects/obj_player_gun/obj_player_gun.yy",},},
     {"id":{"name":"obj_enemyManager","path":"objects/obj_enemyManager/obj_enemyManager.yy",},},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},},
     {"id":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},},
