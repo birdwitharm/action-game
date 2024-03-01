@@ -1,1 +1,1 @@
-bullet_speed = 15;
+bullet_speed = 8;
