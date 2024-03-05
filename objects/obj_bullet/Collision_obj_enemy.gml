@@ -8,6 +8,9 @@ with (other)
 	if (enemy_health < 0) 
 	{
 		instance_destroy();
+		
+		obj_shake.shake = true;
+		audio_play_sound(snd_enemy_hit, 1, false);
 		global.pscore ++;
 	}
 }

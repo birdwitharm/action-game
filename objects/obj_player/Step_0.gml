@@ -27,4 +27,6 @@ if (keyboard_check(ord("W")) && y > 0)
 if (mouse_check_button_pressed(mb_left)) 
 {
 	instance_create_layer (x + 30, y, "Instances", obj_bullet)
+	
+	audio_play_sound(snd_shoot, 1, false);
 }
