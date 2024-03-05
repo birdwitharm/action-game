@@ -1,5 +1,5 @@
-close = 200
-far = 400
+close = 400
+far = 700
 
 enemy_speed = 5
 
@@ -8,4 +8,7 @@ bullet_timer = 0;
 bullet_break = 5; 
 
 // enemy health
-enemy_health = 3;
+enemy_health = 1;
+
+//hp_bullet_enemy = 5;
+hp_bullet_shake = 5;
